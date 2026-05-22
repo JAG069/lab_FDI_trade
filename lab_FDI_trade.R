@@ -1,9 +1,8 @@
 #################################
 #### Lab FDI and Trade Data
-#### May 20, 2026 
-#### Kyle Handley 
-#### Version 1.2 
- 
+#### May 22, 2026 
+#### Jimmy Guzman
+
 
 
 # clear environment
@@ -12,11 +11,8 @@ rm(list = ls())
  
 # new packages we need for Census and BEA
 
-#install.packages("censusapi")
 library(censusapi)
-#install.packages('bea.R')
 library(bea.R)
-
 library(fredr)
 library(tidyverse)
 
